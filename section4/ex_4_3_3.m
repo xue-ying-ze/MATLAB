@@ -17,7 +17,7 @@ c = [2 1
        else
            w(j)=w(j)+s;
        end
-%        w(j)=w(j)+s;
+
        v = w(1,j:end)-A1(j:end,j)';
        v=v';
        P = v*v'/(v'*v);
