@@ -13,9 +13,9 @@ c = [2 1
        H0 = eye(m,m);
        s = norm(A1(j:end,j));
        if A1(j,j)>=0
-           w(j)=w(j)+s;
-       else
            w(j)=w(j)-s;
+       else
+           w(j)=w(j)+s;
        end
 %        w(j)=w(j)+s;
        v = w(1,j:end)-A1(j:end,j)';
